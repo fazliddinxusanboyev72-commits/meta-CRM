@@ -23,7 +23,7 @@ export default function AdminCoursesPage() {
     slug: '',
     title: '',
     subtitle: '',
-    category: 'programming' as const,
+    category: 'programming' as 'programming' | 'design' | 'technology',
     level: "O'rta" as const,
     duration: '6 oy',
     price: 1800000,
