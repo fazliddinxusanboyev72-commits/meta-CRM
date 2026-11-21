@@ -1,0 +1,11 @@
+import { NextResponse } from 'next/server';
+import { getCourses } from '@/lib/db';
+
+export async function GET() {
+  try {
+    const courses = await getCourses();
+    return NextResponse.json(courses);
+  } catch (error) {
+    return NextResponse.json({ error: 'Xatolik yuz berdi' }, { status: 500 });
+  }
+}

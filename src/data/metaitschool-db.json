@@ -1,0 +1,1667 @@
+{
+  "admins": [
+    {
+      "id": "admin-1",
+      "username": "fazliddin",
+      "passwordHash": "$2a$10$4HETAQZWOkP3aDUARKvNJetv1z1rkDn8Zq2s41ZonE.t96OGf6ake",
+      "fullName": "Fazliddin Xudoyberdiyev",
+      "email": "fazliddin@metaitschool.uz",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "role": "admin",
+      "createdAt": "2026-01-10T08:00:00.000Z"
+    },
+    {
+      "id": "admin-2",
+      "username": "yaxyobek",
+      "passwordHash": "$2a$10$4HETAQZWOkP3aDUARKvNJetv1z1rkDn8Zq2s41ZonE.t96OGf6ake",
+      "fullName": "Yaxyobek Olimov",
+      "email": "yaxyobek@metaitschool.uz",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "role": "admin",
+      "createdAt": "2026-01-10T08:00:00.000Z"
+    },
+    {
+      "id": "admin-3",
+      "username": "jasurbek",
+      "passwordHash": "$2a$10$4HETAQZWOkP3aDUARKvNJetv1z1rkDn8Zq2s41ZonE.t96OGf6ake",
+      "fullName": "Jasurbek Nurmatov",
+      "email": "jasurbek@metaitschool.uz",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "role": "admin",
+      "createdAt": "2026-01-10T08:00:00.000Z"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "teacher-1",
+      "fullName": "Javohir Rahmatov",
+      "email": "javohir@metaitschool.uz",
+      "phone": "+998 90 123 45 67",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80",
+      "bio": "7+ yillik tajribaga ega Senior Full Stack Engineer. Next.js, Node.js, mikroservislar va yuqori yuklamali arxitekturalar bo'yicha mutaxassis.",
+      "specialization": "Full Stack Development (React, Next.js, Node.js)",
+      "experience": "7 yil",
+      "rating": 4.95,
+      "studentsCount": 340,
+      "courseIds": [
+        "full-stack-javascript",
+        "frontend-react"
+      ],
+      "social": {
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com",
+        "telegram": "https://t.me"
+      }
+    },
+    {
+      "id": "teacher-2",
+      "fullName": "Madina Qodirova",
+      "email": "madina@metaitschool.uz",
+      "phone": "+998 91 234 56 78",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&auto=format&fit=crop&q=80",
+      "bio": "Lead UI/UX Designer. Yirik fintex va EdTech mahsulotlari dizayneri. Design Systems, user research va interaktiv prototiplash bo'yicha xalqaro mentor.",
+      "specialization": "Product Design & UI/UX (Figma, Design Systems)",
+      "experience": "6 yil",
+      "rating": 4.98,
+      "studentsCount": 290,
+      "courseIds": [
+        "ui-ux-design-pro"
+      ],
+      "social": {
+        "linkedin": "https://linkedin.com",
+        "telegram": "https://t.me"
+      }
+    },
+    {
+      "id": "teacher-3",
+      "fullName": "Anvar Toshmatov",
+      "email": "anvar@metaitschool.uz",
+      "phone": "+998 93 345 67 89",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80",
+      "bio": "AI & Data Science mutaxassisi. Machine Learning modellarini ishlab chiqish, NLP, Computer Vision va LLM tizimlari bo'yicha amaliy tajribaga ega.",
+      "specialization": "Python, Artificial Intelligence & Machine Learning",
+      "experience": "8 yil",
+      "rating": 4.92,
+      "studentsCount": 420,
+      "courseIds": [
+        "python-ai-data",
+        "backend-python"
+      ],
+      "social": {
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      }
+    },
+    {
+      "id": "teacher-4",
+      "fullName": "Kamronbek Aliyev",
+      "email": "kamron@metaitschool.uz",
+      "phone": "+998 97 456 78 90",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&auto=format&fit=crop&q=80",
+      "bio": "Senior Mobile Engineer. Flutter va React Native orqali 20 dan ortiq tijoriy ilovalar yaratgan. App Store va Google Play nashrlari bo'yicha usta.",
+      "specialization": "Cross-platform Mobile Development (Flutter, Dart)",
+      "experience": "5 yil",
+      "rating": 4.88,
+      "studentsCount": 210,
+      "courseIds": [
+        "mobile-flutter"
+      ],
+      "social": {
+        "github": "https://github.com",
+        "telegram": "https://t.me"
+      }
+    },
+    {
+      "id": "teacher-5",
+      "fullName": "Dilshod Karimov",
+      "email": "dilshod@metaitschool.uz",
+      "phone": "+998 99 567 89 01",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&auto=format&fit=crop&q=80",
+      "bio": "Certified Ethical Hacker (CEH) va xavfsizlik auditi bo'yicha ekspert. Veb va server infratuzilmasini himoyalash bo'yicha amaliy mutaxassis.",
+      "specialization": "Cyber Security & Ethical Hacking",
+      "experience": "6 yil",
+      "rating": 4.96,
+      "studentsCount": 185,
+      "courseIds": [
+        "cyber-security"
+      ],
+      "social": {
+        "linkedin": "https://linkedin.com"
+      }
+    },
+    {
+      "id": "teacher-6",
+      "fullName": "Shahzod Rustamov",
+      "email": "shahzod@metaitschool.uz",
+      "phone": "+998 94 678 90 12",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&auto=format&fit=crop&q=80",
+      "bio": "Senior DevOps & Cloud Architect. Docker, Kubernetes, Terraform va CI/CD avtomatlashtirish quvurlarini loyihalash bo'yicha ekspert.",
+      "specialization": "DevOps & Cloud Engineering",
+      "experience": "7 yil",
+      "rating": 4.94,
+      "studentsCount": 195,
+      "courseIds": [
+        "devops-cloud"
+      ],
+      "social": {
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com"
+      }
+    }
+  ],
+  "courses": [
+    {
+      "id": "full-stack-javascript",
+      "slug": "full-stack-javascript",
+      "title": "Full Stack JavaScript & Next.js Pro",
+      "subtitle": "Zamonaviy veb ilovalar va SaaS platformalarini noldan professional darajagacha yarating",
+      "category": "programming",
+      "level": "O'rta",
+      "duration": "6 oy (24 hafta)",
+      "price": 1800000,
+      "originalPrice": 2400000,
+      "rating": 4.96,
+      "reviewsCount": 142,
+      "studentsCount": 380,
+      "teacherId": "teacher-1",
+      "teacherName": "Javohir Rahmatov",
+      "teacherAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&auto=format&fit=crop&q=80",
+      "description": "HTML5, CSS3, JavaScript ES6+, TypeScript, React 19, Next.js 14 App Router, Node.js, Express, PostgreSQL, Prisma va Docker orqali haqiqiy bozor talabidagi loyihalarni yarating.",
+      "overview": "Ushbu kurs IT industriyasida eng ko'p talab qilinadigan Full Stack mutaxassislarni tayyorlash uchun maxsus ishlab chiqilgan. Nazariya va 80% amaliyot uyg'unligi orqali o'quvchilar kamida 5 ta to'liq portfolio loyihasi ustida ishlaydilar.",
+      "learningOutcomes": [
+        "Zamonaviy JavaScript (ESNext) va TypeScript imkoniyatlarini chuqur o'zlashtirish",
+        "React ekotizimi va Next.js 14 App Router arxitekturasi",
+        "Server-side rendering, Static Site Generation va Streaming",
+        "Node.js va PostgreSQL yordamida xavfsiz REST hamda GraphQL API yaratish",
+        "Foydalanuvchi autentifikatsiyasi (JWT, OAuth, RBAC) va xavfsizlik",
+        "CI/CD, Docker va Vercel/AWS da loyihalarni jonli serverga joylash"
+      ],
+      "requirements": [
+        "Kompyuterdan asosiy foydalanish ko'nikmalari",
+        "Ingliz tilida texnik matnlarni tushunish (Boshlang'ich/A2)",
+        "Haftasiga kamida 12-15 soat amaliyotga vaqt ajratish"
+      ],
+      "modulesCount": 6,
+      "lessonsCount": 48,
+      "isPopular": true,
+      "status": "published",
+      "modules": [
+        {
+          "id": "mod-1",
+          "courseId": "full-stack-javascript",
+          "title": "1-Modul: Zamonaviy Frontend Asoslari & TypeScript",
+          "description": "HTML Semantikasi, Modern CSS, Flexbox/Grid, Responsive dizayn va TypeScript asoslari.",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "les-1",
+              "courseId": "full-stack-javascript",
+              "moduleId": "mod-1",
+              "title": "Zamonaviy Veb Standartlari & Dasturlash Muhiti",
+              "slug": "veb-standartlari-muhit",
+              "duration": "45 daqiqa",
+              "order": 1,
+              "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+              "contentMarkdown": "### Veb arxitekturasi va vositalar\n\nUshbu darsda biz zamonaviy veb standartlari, browser dvigatellari va ishlab chiqish muhiti (VS Code, Git, Node.js) bilan tanishamiz.\n\n```bash\nnode -v\nnpm init -y\n```",
+              "resources": [
+                {
+                  "name": "Dars konspekti (PDF)",
+                  "url": "#",
+                  "size": "1.2 MB",
+                  "type": "pdf"
+                },
+                {
+                  "name": "Boshlang'ich loyiha kodi (ZIP)",
+                  "url": "#",
+                  "size": "4.5 MB",
+                  "type": "zip"
+                }
+              ],
+              "isFreePreview": true
+            },
+            {
+              "id": "les-2",
+              "courseId": "full-stack-javascript",
+              "moduleId": "mod-1",
+              "title": "TypeScript: Turlar, Interfeyslar va Genericlar",
+              "slug": "typescript-turlar-genericlar",
+              "duration": "60 daqiqa",
+              "order": 2,
+              "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+              "contentMarkdown": "### Nega TypeScript?\n\nTypeScript yirik loyihalarda xatoliklarni erta aniqlash va kod sifatini oshirish uchun ajralmas vosita hisoblanadi.",
+              "resources": [
+                {
+                  "name": "TypeScript Cheat Sheet",
+                  "url": "#",
+                  "size": "850 KB",
+                  "type": "pdf"
+                }
+              ],
+              "isFreePreview": false
+            }
+          ]
+        },
+        {
+          "id": "mod-2",
+          "courseId": "full-stack-javascript",
+          "title": "2-Modul: React 19 va Next.js 14 App Router",
+          "description": "React Hooks, State Management, Server Components va Next.js routing.",
+          "order": 2,
+          "lessons": [
+            {
+              "id": "les-3",
+              "courseId": "full-stack-javascript",
+              "moduleId": "mod-2",
+              "title": "Server Components vs Client Components",
+              "slug": "server-components-client-components",
+              "duration": "55 daqiqa",
+              "order": 1,
+              "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+              "contentMarkdown": "Next.js App Router arxitekturasida komponentlar ikkiga bo'linadi: Server Components va Client Components.",
+              "resources": [],
+              "isFreePreview": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "python-ai-data",
+      "slug": "python-ai-data",
+      "title": "Python, Sun'iy Intellekt va Data Science",
+      "subtitle": "Neyron to'rlari, Machine Learning, Deep Learning va LLM tizimlarini yarating",
+      "category": "technology",
+      "level": "O'rta",
+      "duration": "7 oy (28 hafta)",
+      "price": 1950000,
+      "originalPrice": 2600000,
+      "rating": 4.94,
+      "reviewsCount": 118,
+      "studentsCount": 310,
+      "teacherId": "teacher-3",
+      "teacherName": "Anvar Toshmatov",
+      "teacherAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80",
+      "description": "Python tilining barcha imkoniyatlari, Pandas, NumPy, Scikit-Learn, PyTorch, Computer Vision va Generative AI modellarini amalda qo'llash.",
+      "overview": "Sun'iy intellekt kelajakning eng muhim yo'nalishi. Ushbu kurs orqali siz shunchaki tayyor modellardan foydalanib qolmay, o'zingiz mustaqil ravishda ma'lumotlar tahlili, bashorat qilish modellarini yarata olasiz.",
+      "learningOutcomes": [
+        "Python algoritmlari va Data Structures",
+        "Katta ma'lumotlar bilan ishlash (Pandas, NumPy)",
+        "Mashinaviy o'rganish algoritmlari (Regressiya, Klassifikatsiya, Klasterlash)",
+        "PyTorch bilan chuqur o'rganish (Deep Neural Networks)",
+        "Computer Vision va NLP tizimlari",
+        "OpenAI API, LangChain va xususiy ma'lumotlar bilan AI agentlar yaratish"
+      ],
+      "requirements": [
+        "Matematika va statistika asoslari haqida tushuncha",
+        "Mantiqiy fikrlash qobiliyati"
+      ],
+      "modulesCount": 7,
+      "lessonsCount": 56,
+      "isPopular": true,
+      "status": "published"
+    },
+    {
+      "id": "ui-ux-design-pro",
+      "slug": "ui-ux-design-pro",
+      "title": "Professional UI/UX & Product Design",
+      "subtitle": "Figma, foydalanuvchi tadqiqotlari va xalqaro darajadagi interfeyslar dizayni",
+      "category": "design",
+      "level": "Boshlang'ich",
+      "duration": "5 oy (20 hafta)",
+      "price": 1650000,
+      "originalPrice": 2200000,
+      "rating": 4.98,
+      "reviewsCount": 96,
+      "studentsCount": 260,
+      "teacherId": "teacher-2",
+      "teacherName": "Madina Qodirova",
+      "teacherAvatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&auto=format&fit=crop&q=80",
+      "description": "Design Thinking, Figma barcha imkoniyatlari (Auto-layout, Components, Variables), Design Systems, Prototyping va Behance/Dribbble portfoliosi.",
+      "overview": "Har qanday muvaffaqiyatli dasturiy mahsulot qulay va chiroyli dizayndan boshlanadi. Ushbu kurs sizni xalqaro IT kompaniyalari talab qiladigan darajadagi Product Designer qilib yetishtiradi.",
+      "learningOutcomes": [
+        "Figma vositalarining to'liq arsenali",
+        "Design System va tokenlar bilan ishlash",
+        "UX tadqiqotlar: User Persona, Empathy Map, Customer Journey Map",
+        "Mobil ilovalar va murakkab veb-servislar dizayni",
+        "Interaktiv prototiplash va animatsiyalar",
+        "Dizaynni dasturchilarga sifatli topshirish jarayoni"
+      ],
+      "requirements": [
+        "Estetik qiziqish va vizual tafakkur",
+        "Figma dasturi o'rnatilgan zamonaviy kompyuter"
+      ],
+      "modulesCount": 5,
+      "lessonsCount": 40,
+      "isPopular": false,
+      "status": "published"
+    },
+    {
+      "id": "mobile-flutter",
+      "slug": "mobile-flutter",
+      "title": "Flutter & Dart: Cross-Platform Mobile Pro",
+      "subtitle": "Bitta kod bazasi bilan iOS va Android uchun tezkor va jozibador ilovalar yarating",
+      "category": "programming",
+      "level": "O'rta",
+      "duration": "6 oy (24 hafta)",
+      "price": 1750000,
+      "originalPrice": 2300000,
+      "rating": 4.89,
+      "reviewsCount": 84,
+      "studentsCount": 190,
+      "teacherId": "teacher-4",
+      "teacherName": "Kamronbek Aliyev",
+      "teacherAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&auto=format&fit=crop&q=80",
+      "description": "Dart tili, Flutter vidjetlari, BLoC va Riverpod state management, REST API integratsiyasi, SQLite va App Store/Play Market ga yuklash.",
+      "overview": "Flutter bugungi kunda jahon miqyosida eng tez rivojlanayotgan mobil freymvork. U orqali siz ikkala asosiy operatsion tizim uchun sifatli mobil ilovalarni kam vaqt ichida yarata olasiz.",
+      "learningOutcomes": [
+        "Dart dasturlash tili va OOP printsiplari",
+        "Flutter Architecture & Material 3 dizayni",
+        "BLoC va Cubit yordamida arxitektura qurish",
+        "Offline rejim va mahalliy ma'lumotlar bazasi",
+        "Firebase push-xabarnomalari va autentifikatsiya",
+        "Ilovalarni optimallashtirish va reliz qilish"
+      ],
+      "requirements": [
+        "Dasturlashning boshlang'ich tushunchalari",
+        "Kamida 8GB RAM ga ega kompyuter"
+      ],
+      "modulesCount": 6,
+      "lessonsCount": 46,
+      "isPopular": false,
+      "status": "published"
+    },
+    {
+      "id": "cyber-security",
+      "slug": "cyber-security",
+      "title": "Kiberxavfsizlik va Axborot Himoyasi",
+      "subtitle": "Tizim xavfsizligi, penetratsion testlar, tarmoq xavfsizligi va xavflarni bartaraf etish",
+      "category": "technology",
+      "level": "Mukammal",
+      "duration": "6 oy (24 hafta)",
+      "price": 2100000,
+      "originalPrice": 2800000,
+      "rating": 4.95,
+      "reviewsCount": 72,
+      "studentsCount": 140,
+      "teacherId": "teacher-5",
+      "teacherName": "Dilshod Karimov",
+      "teacherAvatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=800&auto=format&fit=crop&q=80",
+      "description": "Linux ma'muriyati, tarmoq protokollari (TCP/IP), Wireshark, Metasploit, Burp Suite, Web Application Security (OWASP Top 10) va himoya strategiyalari.",
+      "overview": "Raqamli dunyoda axborot xavfsizligi har qanday biznes uchun hayot-mamot masalasidir. Ushbu kurs orqali siz tarmoqlar va tizimlardagi zaifliklarni aniqlash va ularni bartaraf qilishni o'rganasiz.",
+      "learningOutcomes": [
+        "Linux xavfsizligi va buyruqlar satri",
+        "Tarmoq trafigi tahlili va monitoring",
+        "Veb-ilovalar xavfsizligi auditi (OWASP Top 10)",
+        "Penetration Testing metodologiyalari",
+        "Kriptografiya asoslari va shifrlash usullari",
+        "Xavfsizlik hisobotlarini tayyorlash"
+      ],
+      "requirements": [
+        "Tarmoq asoslari va operatsion tizimlar haqida tushuncha"
+      ],
+      "modulesCount": 6,
+      "lessonsCount": 44,
+      "isPopular": false,
+      "status": "published"
+    },
+    {
+      "id": "devops-cloud",
+      "slug": "devops-cloud",
+      "title": "DevOps & Cloud Engineering Pro",
+      "subtitle": "CI/CD, Docker, Kubernetes, AWS, Terraform va Monitoring tizimlari",
+      "category": "technology",
+      "level": "Mukammal",
+      "duration": "5 oy (20 hafta)",
+      "price": 2000000,
+      "originalPrice": 2700000,
+      "rating": 4.93,
+      "reviewsCount": 65,
+      "studentsCount": 160,
+      "teacherId": "teacher-6",
+      "teacherName": "Shahzod Rustamov",
+      "teacherAvatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+      "description": "Zamonaviy IT kompaniyalarida ilovalarni avtomatlashtirilgan tarzda serverga yetkazish, masshtablash va doimiy monitoring qilish tizimlarini quring.",
+      "overview": "Dasturchilar va operatsion guruhlar o'rtasidagi ko'prik - bu DevOps. Siz Docker konteynerlari, Kubernetes klasterlari va bulutli infratuzilmani avtomatlashtirishni o'rganasiz.",
+      "learningOutcomes": [
+        "Docker va ko'p bosqichli buildlar",
+        "Kubernetes bilan konteynerlarni boshqarish",
+        "GitHub Actions va GitLab CI orqali CI/CD",
+        "Terraform orqali Infrastructure as Code (IaC)",
+        "Grafana va Prometheus bilan monitoring"
+      ],
+      "requirements": [
+        "Linux asoslari va dasturlash haqida tushuncha"
+      ],
+      "modulesCount": 5,
+      "lessonsCount": 38,
+      "isPopular": false,
+      "status": "published"
+    },
+    {
+      "id": "frontend-react",
+      "slug": "frontend-react",
+      "title": "Frontend Dasturlash: React & Modern Web",
+      "subtitle": "HTML, CSS, JavaScript, React va Tailwind CSS yordamida interfeyslar yaratish",
+      "category": "programming",
+      "level": "Boshlang'ich",
+      "duration": "4 oy (16 hafta)",
+      "price": 1400000,
+      "originalPrice": 1900000,
+      "rating": 4.91,
+      "reviewsCount": 130,
+      "studentsCount": 410,
+      "teacherId": "teacher-1",
+      "teacherName": "Javohir Rahmatov",
+      "teacherAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&auto=format&fit=crop&q=80",
+      "description": "Frontend sohasiga yangi kirib kelayotganlar uchun mo'ljallangan mukammal dastur. Nol darajadan boshlab to'liq mustaqil React dasturchisi darajasigacha yetkazing.",
+      "overview": "Har qanday saytning ko'rinadigan va qulay qismi frontend dasturchi tomonidan yaratiladi. Kurs davomida 10 dan ortiq real amaliy loyihalar bajariladi.",
+      "learningOutcomes": [
+        "Semantik HTML5 va Responsive CSS3",
+        "Zamonaviy JavaScript (DOM, Fetch API, Async/Await)",
+        "Tailwind CSS bilan tezkor uslublash",
+        "React asoslari, Componentlar, Props va State",
+        "React Router va SPA arxitekturasi"
+      ],
+      "requirements": [
+        "Qat'iy qatnashish va darslarni o'z vaqtida bajarish"
+      ],
+      "modulesCount": 4,
+      "lessonsCount": 32,
+      "isPopular": true,
+      "status": "published"
+    },
+    {
+      "id": "backend-python",
+      "slug": "backend-python",
+      "title": "Backend Dasturlash: Python, Django & FastAPI",
+      "subtitle": "Kuchli ma'lumotlar bazasi, xavfsiz API va server arxitekturasini o'rganing",
+      "category": "programming",
+      "level": "O'rta",
+      "duration": "5 oy (20 hafta)",
+      "price": 1600000,
+      "originalPrice": 2100000,
+      "rating": 4.94,
+      "reviewsCount": 88,
+      "studentsCount": 270,
+      "teacherId": "teacher-3",
+      "teacherName": "Anvar Toshmatov",
+      "teacherAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=800&auto=format&fit=crop&q=80",
+      "description": "Python tilida OOP, PostgreSQL, Django REST Framework, FastAPI, Redis kesh tizimi, Celery bilan asinxron vazifalar va xavfsiz autentifikatsiya.",
+      "overview": "Sayt va ilovalarning miyasi serverda yashaydi. Ushbu kurs orqali siz katta hajmdagi ma'lumotlar bilan tezkor ishlaydigan kuchli backend tizimlarini qurasiz.",
+      "learningOutcomes": [
+        "Python OOP va ilg'or dasturlash printsiplari",
+        "PostgreSQL, SQL so'rovlar va indekslash",
+        "Django va Django REST Framework orqali API",
+        "FastAPI orqali yuqori tezlikdagi mikroxizmatlar",
+        "Redis va Celery yordamida fon vazifalari"
+      ],
+      "requirements": [
+        "Dasturlash asoslari haqida tushuncha"
+      ],
+      "modulesCount": 5,
+      "lessonsCount": 38,
+      "isPopular": false,
+      "status": "published"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group-fs-01",
+      "name": "Full Stack FS-2026-01",
+      "courseId": "full-stack-javascript",
+      "courseTitle": "Full Stack JavaScript & Next.js Pro",
+      "teacherId": "teacher-1",
+      "teacherName": "Javohir Rahmatov",
+      "schedule": "Dushanba, Chorshanba, Juma 18:30 - 20:30",
+      "room": "Lab-A (Auditoriya 301)",
+      "capacity": 20,
+      "studentIds": [
+        "student-1",
+        "student-2",
+        "student-3",
+        "student-4"
+      ],
+      "studentsCount": 4,
+      "startDate": "2026-02-01",
+      "endDate": "2026-08-01",
+      "status": "active"
+    },
+    {
+      "id": "group-ai-01",
+      "name": "AI & Data Science AI-2026-01",
+      "courseId": "python-ai-data",
+      "courseTitle": "Python, Sun'iy Intellekt va Data Science",
+      "teacherId": "teacher-3",
+      "teacherName": "Anvar Toshmatov",
+      "schedule": "Seshanba, Payshanba, Shanba 18:30 - 20:30",
+      "room": "Lab-B (Auditoriya 304)",
+      "capacity": 18,
+      "studentIds": [
+        "student-5",
+        "student-6",
+        "student-7"
+      ],
+      "studentsCount": 3,
+      "startDate": "2026-02-10",
+      "endDate": "2026-09-10",
+      "status": "active"
+    },
+    {
+      "id": "group-ui-02",
+      "name": "UI/UX Pro UI-2026-02",
+      "courseId": "ui-ux-design-pro",
+      "courseTitle": "Professional UI/UX & Product Design",
+      "teacherId": "teacher-2",
+      "teacherName": "Madina Qodirova",
+      "schedule": "Dushanba, Chorshanba, Juma 15:00 - 17:00",
+      "room": "Design Studio (Auditoriya 202)",
+      "capacity": 16,
+      "studentIds": [
+        "student-8",
+        "student-9",
+        "student-10"
+      ],
+      "studentsCount": 3,
+      "startDate": "2026-03-01",
+      "endDate": "2026-08-01",
+      "status": "active"
+    },
+    {
+      "id": "group-flutter-01",
+      "name": "Flutter Mobile FL-2026-01",
+      "courseId": "mobile-flutter",
+      "courseTitle": "Flutter & Dart: Cross-Platform Mobile Pro",
+      "teacherId": "teacher-4",
+      "teacherName": "Kamronbek Aliyev",
+      "schedule": "Seshanba, Payshanba, Shanba 15:00 - 17:00",
+      "room": "Lab-C (Auditoriya 305)",
+      "capacity": 18,
+      "studentIds": [
+        "student-11",
+        "student-12"
+      ],
+      "studentsCount": 2,
+      "startDate": "2026-03-15",
+      "endDate": "2026-09-15",
+      "status": "active"
+    }
+  ],
+  "students": [
+    {
+      "id": "student-1",
+      "studentId": "META-S-1001",
+      "fullName": "Bobur Mirzayev",
+      "email": "bobur@student.metaitschool.uz",
+      "phone": "+998 90 111 22 33",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "balance": 0,
+      "enrolledCourseIds": [
+        "full-stack-javascript"
+      ],
+      "groupId": "group-fs-01",
+      "groupName": "Full Stack FS-2026-01",
+      "attendanceRate": 96,
+      "averageGrade": 92,
+      "joinedAt": "2026-02-01",
+      "notes": "Juda faol, React bo'yicha amaliy topshiriqlarni muddatidan oldin yakunlaydi."
+    },
+    {
+      "id": "student-2",
+      "studentId": "META-S-1002",
+      "fullName": "Zilola Karimova",
+      "email": "zilola@student.metaitschool.uz",
+      "phone": "+998 93 222 33 44",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "balance": 0,
+      "enrolledCourseIds": [
+        "full-stack-javascript"
+      ],
+      "groupId": "group-fs-01",
+      "groupName": "Full Stack FS-2026-01",
+      "attendanceRate": 92,
+      "averageGrade": 88,
+      "joinedAt": "2026-02-01"
+    },
+    {
+      "id": "student-3",
+      "studentId": "META-S-1003",
+      "fullName": "Sardorbek Ergashev",
+      "email": "sardor@student.metaitschool.uz",
+      "phone": "+998 97 333 44 55",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "balance": 300000,
+      "enrolledCourseIds": [
+        "full-stack-javascript"
+      ],
+      "groupId": "group-fs-01",
+      "groupName": "Full Stack FS-2026-01",
+      "attendanceRate": 88,
+      "averageGrade": 85,
+      "joinedAt": "2026-02-01",
+      "notes": "Qisman to'lov mavjud, 25-sanagacha to'lash rejalashtirilgan."
+    },
+    {
+      "id": "student-4",
+      "studentId": "META-S-1004",
+      "fullName": "Shaxnoza Yunusova",
+      "email": "shaxnoza@student.metaitschool.uz",
+      "phone": "+998 94 444 55 66",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "balance": 0,
+      "enrolledCourseIds": [
+        "full-stack-javascript"
+      ],
+      "groupId": "group-fs-01",
+      "groupName": "Full Stack FS-2026-01",
+      "attendanceRate": 98,
+      "averageGrade": 95,
+      "joinedAt": "2026-02-01"
+    },
+    {
+      "id": "student-5",
+      "studentId": "META-S-1005",
+      "fullName": "Bekzod Abdullayev",
+      "email": "bekzod@student.metaitschool.uz",
+      "phone": "+998 99 555 66 77",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "balance": 0,
+      "enrolledCourseIds": [
+        "python-ai-data"
+      ],
+      "groupId": "group-ai-01",
+      "groupName": "AI & Data Science AI-2026-01",
+      "attendanceRate": 95,
+      "averageGrade": 94,
+      "joinedAt": "2026-02-10"
+    },
+    {
+      "id": "student-6",
+      "studentId": "META-S-1006",
+      "fullName": "Nilufar Saidova",
+      "email": "nilufar@student.metaitschool.uz",
+      "phone": "+998 91 666 77 88",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "balance": 0,
+      "enrolledCourseIds": [
+        "python-ai-data"
+      ],
+      "groupId": "group-ai-01",
+      "groupName": "AI & Data Science AI-2026-01",
+      "attendanceRate": 90,
+      "averageGrade": 89,
+      "joinedAt": "2026-02-10"
+    },
+    {
+      "id": "student-7",
+      "studentId": "META-S-1007",
+      "fullName": "Diyorbek Qosimov",
+      "email": "diyor@student.metaitschool.uz",
+      "phone": "+998 95 777 88 99",
+      "avatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "balance": 500000,
+      "enrolledCourseIds": [
+        "python-ai-data"
+      ],
+      "groupId": "group-ai-01",
+      "groupName": "AI & Data Science AI-2026-01",
+      "attendanceRate": 84,
+      "averageGrade": 82,
+      "joinedAt": "2026-02-10"
+    },
+    {
+      "id": "student-8",
+      "studentId": "META-S-1008",
+      "fullName": "Malika Rustamova",
+      "email": "malika@student.metaitschool.uz",
+      "phone": "+998 90 888 99 00",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "balance": 0,
+      "enrolledCourseIds": [
+        "ui-ux-design-pro"
+      ],
+      "groupId": "group-ui-02",
+      "groupName": "UI/UX Pro UI-2026-02",
+      "attendanceRate": 97,
+      "averageGrade": 96,
+      "joinedAt": "2026-03-01"
+    },
+    {
+      "id": "student-9",
+      "studentId": "META-S-1009",
+      "fullName": "Otabek Jo'rayev",
+      "email": "otabek@student.metaitschool.uz",
+      "phone": "+998 93 999 00 11",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "balance": 0,
+      "enrolledCourseIds": [
+        "ui-ux-design-pro"
+      ],
+      "groupId": "group-ui-02",
+      "groupName": "UI/UX Pro UI-2026-02",
+      "attendanceRate": 91,
+      "averageGrade": 87,
+      "joinedAt": "2026-03-01"
+    },
+    {
+      "id": "student-10",
+      "studentId": "META-S-1010",
+      "fullName": "Kamola Xamidova",
+      "email": "kamola@student.metaitschool.uz",
+      "phone": "+998 94 000 11 22",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "balance": 0,
+      "enrolledCourseIds": [
+        "ui-ux-design-pro"
+      ],
+      "groupId": "group-ui-02",
+      "groupName": "UI/UX Pro UI-2026-02",
+      "attendanceRate": 94,
+      "averageGrade": 90,
+      "joinedAt": "2026-03-01"
+    },
+    {
+      "id": "student-11",
+      "studentId": "META-S-1011",
+      "fullName": "Javohir Toirov",
+      "email": "javohir.t@student.metaitschool.uz",
+      "phone": "+998 97 111 33 55",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "balance": 0,
+      "enrolledCourseIds": [
+        "mobile-flutter"
+      ],
+      "groupId": "group-flutter-01",
+      "groupName": "Flutter Mobile FL-2026-01",
+      "attendanceRate": 89,
+      "averageGrade": 86,
+      "joinedAt": "2026-03-15"
+    },
+    {
+      "id": "student-12",
+      "studentId": "META-S-1012",
+      "fullName": "Shahlo Nazarova",
+      "email": "shahlo@student.metaitschool.uz",
+      "phone": "+998 99 222 44 66",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+      "status": "active",
+      "balance": 0,
+      "enrolledCourseIds": [
+        "mobile-flutter"
+      ],
+      "groupId": "group-flutter-01",
+      "groupName": "Flutter Mobile FL-2026-01",
+      "attendanceRate": 93,
+      "averageGrade": 91,
+      "joinedAt": "2026-03-15"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att-1",
+      "groupId": "group-fs-01",
+      "groupName": "Full Stack FS-2026-01",
+      "date": "2026-03-18",
+      "topic": "TypeScript Genericlar va Advanced Types",
+      "records": [
+        {
+          "studentId": "student-1",
+          "studentName": "Bobur Mirzayev",
+          "status": "present"
+        },
+        {
+          "studentId": "student-2",
+          "studentName": "Zilola Karimova",
+          "status": "present"
+        },
+        {
+          "studentId": "student-3",
+          "studentName": "Sardorbek Ergashev",
+          "status": "late",
+          "note": "15 daqiqa kechikdi"
+        },
+        {
+          "studentId": "student-4",
+          "studentName": "Shaxnoza Yunusova",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "id": "att-2",
+      "groupId": "group-fs-01",
+      "groupName": "Full Stack FS-2026-01",
+      "date": "2026-03-20",
+      "topic": "React 19 Server Components chuqurlashtirilgan amaliyot",
+      "records": [
+        {
+          "studentId": "student-1",
+          "studentName": "Bobur Mirzayev",
+          "status": "present"
+        },
+        {
+          "studentId": "student-2",
+          "studentName": "Zilola Karimova",
+          "status": "present"
+        },
+        {
+          "studentId": "student-3",
+          "studentName": "Sardorbek Ergashev",
+          "status": "present"
+        },
+        {
+          "studentId": "student-4",
+          "studentName": "Shaxnoza Yunusova",
+          "status": "present"
+        }
+      ]
+    },
+    {
+      "id": "att-3",
+      "groupId": "group-ai-01",
+      "groupName": "AI & Data Science AI-2026-01",
+      "date": "2026-03-19",
+      "topic": "Pandas DataFrames bilan Katta ma'lumotlar tahlili",
+      "records": [
+        {
+          "studentId": "student-5",
+          "studentName": "Bekzod Abdullayev",
+          "status": "present"
+        },
+        {
+          "studentId": "student-6",
+          "studentName": "Nilufar Saidova",
+          "status": "present"
+        },
+        {
+          "studentId": "student-7",
+          "studentName": "Diyorbek Qosimov",
+          "status": "absent",
+          "note": "Sababsiz dars qoldirdi"
+        }
+      ]
+    }
+  ],
+  "applications": [
+    {
+      "fullName": "fazliddin",
+      "phone": "903802926",
+      "age": 20,
+      "courseId": "backend-python",
+      "courseName": "Backend Dasturlash: Python, Django & FastAPI",
+      "preferredSchedule": "Ertalabki guruh (10:00)",
+      "message": "oquvchi",
+      "id": "app-1795239346921",
+      "status": "NEW",
+      "notes": [],
+      "createdAt": "2026-11-21T05:35:46.921Z"
+    },
+    {
+      "id": "app-1",
+      "fullName": "Ravshan Yusupov",
+      "phone": "+998 90 777 12 34",
+      "age": 22,
+      "courseId": "full-stack-javascript",
+      "courseName": "Full Stack JavaScript & Next.js Pro",
+      "preferredSchedule": "Kechki guruh (18:30)",
+      "message": "Universitetni bitirdim, IT sohasida faoliyatimni tezroq boshlashni xohlayman.",
+      "status": "APPROVED",
+      "notes": [
+        {
+          "id": "n1",
+          "text": "Telefon orqali bog'lanildi. Boshlang'ich bilimlari yaxshi. Sinov darsiga chaqirildi.",
+          "author": "fazliddin",
+          "createdAt": "2026-03-15T10:00:00.000Z"
+        }
+      ],
+      "followUpDate": "2026-03-22",
+      "createdAt": "2026-03-14T09:30:00.000Z"
+    },
+    {
+      "id": "app-2",
+      "fullName": "Nodira Alimova",
+      "phone": "+998 93 456 78 99",
+      "age": 20,
+      "courseId": "ui-ux-design-pro",
+      "courseName": "Professional UI/UX & Product Design",
+      "preferredSchedule": "Kunduzgi guruh (15:00)",
+      "message": "Grafik dizayn bo'yicha tajribam bor, UI/UX ga o'tishni rejalashtiryapman.",
+      "status": "CONSULTATION",
+      "notes": [
+        {
+          "id": "n2",
+          "text": "Konsultatsiya o'tkazildi. Portfoliosi ko'rildi. Hafta oxirigacha shartnoma qiladi.",
+          "author": "yaxyobek",
+          "createdAt": "2026-03-16T14:20:00.000Z"
+        }
+      ],
+      "followUpDate": "2026-03-23",
+      "createdAt": "2026-03-15T11:00:00.000Z"
+    },
+    {
+      "id": "app-3",
+      "fullName": "Temurbek Soliyev",
+      "phone": "+998 97 555 44 22",
+      "age": 19,
+      "courseId": "python-ai-data",
+      "courseName": "Python, Sun'iy Intellekt va Data Science",
+      "preferredSchedule": "Kechki guruh (18:30)",
+      "message": "Sun'iy intellekt va neyron to'rlarini o'rganishga juda katta qiziqishim bor.",
+      "status": "NEW",
+      "notes": [],
+      "createdAt": "2026-03-18T16:45:00.000Z"
+    },
+    {
+      "id": "app-4",
+      "fullName": "Gulnoza Ismoilova",
+      "phone": "+998 99 333 11 00",
+      "age": 24,
+      "courseId": "mobile-flutter",
+      "courseName": "Flutter & Dart: Cross-Platform Mobile Pro",
+      "preferredSchedule": "Kunduzgi guruh (15:00)",
+      "status": "CONTACTED",
+      "notes": [
+        {
+          "id": "n3",
+          "text": "Operator orqali bog'lanildi, kurs dasturi va to'lov shartlari Telegram orqali yuborildi.",
+          "author": "jasurbek",
+          "createdAt": "2026-03-17T12:10:00.000Z"
+        }
+      ],
+      "createdAt": "2026-03-16T18:00:00.000Z"
+    },
+    {
+      "id": "app-5",
+      "fullName": "Shuhrat Bekmirzayev",
+      "phone": "+998 91 123 99 88",
+      "age": 28,
+      "courseId": "cyber-security",
+      "courseName": "Kiberxavfsizlik va Axborot Himoyasi",
+      "preferredSchedule": "Kechki guruh (20:00)",
+      "status": "ENROLLED",
+      "notes": [
+        {
+          "id": "n4",
+          "text": "Shartnoma imzolandi, to'liq to'lov amalga oshirildi. Guruhga qo'shildi.",
+          "author": "fazliddin",
+          "createdAt": "2026-03-12T16:00:00.000Z"
+        }
+      ],
+      "createdAt": "2026-03-10T10:15:00.000Z"
+    },
+    {
+      "id": "app-6",
+      "fullName": "Davron Ahmedov",
+      "phone": "+998 94 999 88 77",
+      "age": 18,
+      "courseId": "frontend-react",
+      "courseName": "Frontend Dasturlash: React & Modern Web",
+      "preferredSchedule": "Kechki guruh (18:30)",
+      "status": "REJECTED",
+      "notes": [
+        {
+          "id": "n5",
+          "text": "Boshqa shaharga ko'chib ketayotganligi sababli o'qiy olmasligini aytdi.",
+          "author": "yaxyobek",
+          "createdAt": "2026-03-14T11:30:00.000Z"
+        }
+      ],
+      "createdAt": "2026-03-11T13:40:00.000Z"
+    }
+  ],
+  "homework": [
+    {
+      "id": "hw-1",
+      "courseId": "full-stack-javascript",
+      "lessonId": "les-1",
+      "lessonTitle": "Zamonaviy Veb Standartlari & Dasturlash Muhiti",
+      "groupId": "group-fs-01",
+      "title": "TypeScript interfeyslari bilan Mini CLI vosita yaratish",
+      "description": "TypeScript da buyruqlar satri orqali o'quvchilar ro'yxatini konsolga chiroyli chiqaruvchi va turlarni to'g'ri qo'llagan dastur yozing.",
+      "dueDate": "2026-03-25T23:59:00.000Z",
+      "maxScore": 100,
+      "submissionsCount": 3
+    },
+    {
+      "id": "hw-2",
+      "courseId": "full-stack-javascript",
+      "lessonId": "les-3",
+      "lessonTitle": "Server Components vs Client Components",
+      "groupId": "group-fs-01",
+      "title": "Next.js 14 App Router da Dinamik E-commerce Mahsulotlar sahifasi",
+      "description": "Server componentda API dan ma'lumotlarni fetch qilish, streaming va client componentda savatchaga qo'shish tugmachasini amalga oshirish.",
+      "dueDate": "2026-03-28T23:59:00.000Z",
+      "maxScore": 100,
+      "submissionsCount": 2
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub-1",
+      "homeworkId": "hw-1",
+      "studentId": "student-1",
+      "studentName": "Bobur Mirzayev",
+      "content": "Topshiriqni to'liq bajardim. GitHub repozitoriy havolasi ilova qilindi.",
+      "fileUrl": "https://github.com/example/student-cli-tool",
+      "submittedAt": "2026-03-21T18:30:00.000Z",
+      "status": "graded",
+      "score": 98,
+      "feedback": "A'lo darajada! Kod toza va barcha interfeyslar aniq tavsiflangan. Genericlardan foydalanish juda to'g'ri yo'lga qo'yilgan.",
+      "gradedAt": "2026-03-22T10:15:00.000Z"
+    },
+    {
+      "id": "sub-2",
+      "homeworkId": "hw-1",
+      "studentId": "student-2",
+      "studentName": "Zilola Karimova",
+      "content": "TypeScript CLI vositasi tayyor, barcha test holatlari tekshirildi.",
+      "fileUrl": "https://github.com/example/ts-student-project",
+      "submittedAt": "2026-03-21T21:10:00.000Z",
+      "status": "graded",
+      "score": 92,
+      "feedback": "Yaxshi yechim. Keyingi safar xatoliklarni qayta ishlashda maxsus enumlardan foydalanish tavsiya etiladi.",
+      "gradedAt": "2026-03-22T10:45:00.000Z"
+    }
+  ],
+  "exams": [
+    {
+      "id": "exam-1",
+      "courseId": "full-stack-javascript",
+      "courseTitle": "Full Stack JavaScript & Next.js Pro",
+      "title": "Frontend & TypeScript Oraliq Nazorat Imtihoni",
+      "description": "JavaScript ES6+, TypeScript turlari va React Life-cycle bo'yicha 10 ta saralangan savol.",
+      "durationMinutes": 45,
+      "passingScore": 70,
+      "status": "published",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "TypeScript tilida `type` va `interface` o'rtasidagi asosiy farqlardan biri nima?",
+          "type": "mcq",
+          "options": [
+            "Interface larni declaration merging orqali kengaytirib bo'ladi, type larni esa yo'q",
+            "Type faqat raqamlar uchun ishlatiladi, interface esa matnlar uchun",
+            "Interface larda hech qanday method yozish mumkin emas",
+            "Hech qanday farq mavjud emas"
+          ],
+          "correctAnswer": "Interface larni declaration merging orqali kengaytirib bo'ladi, type larni esa yo'q",
+          "points": 20
+        },
+        {
+          "id": "q2",
+          "text": "Next.js 14 App Router da sukut bo'yicha barcha komponentlar Server Component hisoblanadimi?",
+          "type": "tf",
+          "options": [
+            "To'g'ri (True)",
+            "Noto'g'ri (False)"
+          ],
+          "correctAnswer": "To'g'ri (True)",
+          "points": 20
+        },
+        {
+          "id": "q3",
+          "text": "React da useEffect hook i qachon ishga tushadi?",
+          "type": "mcq",
+          "options": [
+            "Komponent render bo'lishidan oldin",
+            "Komponent DOM ga chizilgandan (render) so'ng",
+            "Faqat sahifa yangilanganda",
+            "Hech qachon"
+          ],
+          "correctAnswer": "Komponent DOM ga chizilgandan (render) so'ng",
+          "points": 20
+        },
+        {
+          "id": "q4",
+          "text": "JavaScript da `===` operatori nima vazifani bajaradi?",
+          "type": "mcq",
+          "options": [
+            "Qiymatni turini hisobga olmasdan taqqoslaydi",
+            "Ham qiymatni, ham ma'lumot turini qat'iy taqqoslaydi",
+            "O'zgaruvchiga qiymat biriktiradi",
+            "Xatolikni yashiradi"
+          ],
+          "correctAnswer": "Ham qiymatni, ham ma'lumot turini qat'iy taqqoslaydi",
+          "points": 20
+        },
+        {
+          "id": "q5",
+          "text": "React 19 da Server Actions orqali bevosita serverdagi kodni chaqirish mumkinmi?",
+          "type": "tf",
+          "options": [
+            "To'g'ri (True)",
+            "Noto'g'ri (False)"
+          ],
+          "correctAnswer": "To'g'ri (True)",
+          "points": 20
+        }
+      ]
+    }
+  ],
+  "examAttempts": [],
+  "certificates": [
+    {
+      "id": "cert-1",
+      "certificateId": "META-2026-9481",
+      "studentId": "student-1",
+      "studentName": "Bobur Mirzayev",
+      "courseId": "frontend-react",
+      "courseTitle": "Frontend Dasturlash: React & Modern Web",
+      "teacherName": "Javohir Rahmatov",
+      "issueDate": "2026-02-15",
+      "verificationUrl": "/verify/META-2026-9481",
+      "qrCodeUrl": "https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https://metaitschool.uz/verify/META-2026-9481",
+      "status": "active"
+    },
+    {
+      "id": "cert-2",
+      "certificateId": "META-2026-8820",
+      "studentId": "student-4",
+      "studentName": "Shaxnoza Yunusova",
+      "courseId": "frontend-react",
+      "courseTitle": "Frontend Dasturlash: React & Modern Web",
+      "teacherName": "Javohir Rahmatov",
+      "issueDate": "2026-02-15",
+      "verificationUrl": "/verify/META-2026-8820",
+      "qrCodeUrl": "https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=https://metaitschool.uz/verify/META-2026-8820",
+      "status": "active"
+    }
+  ],
+  "payments": [
+    {
+      "studentId": "student-9",
+      "courseId": "full-stack-javascript",
+      "amount": 1800000,
+      "totalDue": 1800000,
+      "method": "Payme",
+      "status": "paid",
+      "date": "2026-11-21",
+      "notes": "Oylik to'liq to'lov",
+      "studentName": "Otabek Jo'rayev",
+      "courseTitle": "Full Stack JavaScript & Next.js Pro",
+      "id": "pay-1795241010499",
+      "receiptNumber": "REC-2026-006"
+    },
+    {
+      "id": "pay-1",
+      "receiptNumber": "REC-2026-001",
+      "studentId": "student-1",
+      "studentName": "Bobur Mirzayev",
+      "courseId": "full-stack-javascript",
+      "courseTitle": "Full Stack JavaScript & Next.js Pro",
+      "amount": 1800000,
+      "totalDue": 1800000,
+      "method": "Payme",
+      "status": "paid",
+      "date": "2026-02-01",
+      "notes": "To'liq 1-oy to'lovi"
+    },
+    {
+      "id": "pay-2",
+      "receiptNumber": "REC-2026-002",
+      "studentId": "student-2",
+      "studentName": "Zilola Karimova",
+      "courseId": "full-stack-javascript",
+      "courseTitle": "Full Stack JavaScript & Next.js Pro",
+      "amount": 1800000,
+      "totalDue": 1800000,
+      "method": "Click",
+      "status": "paid",
+      "date": "2026-02-01",
+      "notes": "To'liq 1-oy to'lovi"
+    },
+    {
+      "id": "pay-3",
+      "receiptNumber": "REC-2026-003",
+      "studentId": "student-3",
+      "studentName": "Sardorbek Ergashev",
+      "courseId": "full-stack-javascript",
+      "courseTitle": "Full Stack JavaScript & Next.js Pro",
+      "amount": 1500000,
+      "totalDue": 1800000,
+      "method": "Bank Card",
+      "status": "partially_paid",
+      "date": "2026-02-02",
+      "notes": "Qoldiq: 300,000 so'm"
+    },
+    {
+      "id": "pay-4",
+      "receiptNumber": "REC-2026-004",
+      "studentId": "student-5",
+      "studentName": "Bekzod Abdullayev",
+      "courseId": "python-ai-data",
+      "courseTitle": "Python, Sun'iy Intellekt va Data Science",
+      "amount": 1950000,
+      "totalDue": 1950000,
+      "method": "Payme",
+      "status": "paid",
+      "date": "2026-02-10",
+      "notes": "AI kursi to'liq to'lovi"
+    },
+    {
+      "id": "pay-5",
+      "receiptNumber": "REC-2026-005",
+      "studentId": "student-7",
+      "studentName": "Diyorbek Qosimov",
+      "courseId": "python-ai-data",
+      "courseTitle": "Python, Sun'iy Intellekt va Data Science",
+      "amount": 1450000,
+      "totalDue": 1950000,
+      "method": "Cash",
+      "status": "partially_paid",
+      "date": "2026-02-10",
+      "notes": "Qoldiq: 500,000 so'm"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "exp-1",
+      "title": "O'quv markazi binosi oylik ijarasi",
+      "category": "rent",
+      "amount": 12500000,
+      "date": "2026-03-01",
+      "description": "3-qavat 450 kv.m ofis maydoni"
+    },
+    {
+      "id": "exp-2",
+      "title": "Vercel Pro va AWS Server infratuzilmasi",
+      "category": "servers",
+      "amount": 2400000,
+      "date": "2026-03-05",
+      "description": "Bulutli serverlar va LMS video hosting"
+    },
+    {
+      "id": "exp-3",
+      "title": "Instagram va Telegram target reklamasi",
+      "category": "marketing",
+      "amount": 4800000,
+      "date": "2026-03-10",
+      "description": "Bahorgi yangi guruhlarga qabul kampaniyasi"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1795239346921",
+      "targetRole": "admin",
+      "title": "Yangi kurs arizasi",
+      "message": "fazliddin — \"Backend Dasturlash: Python, Django & FastAPI\" kursiga yangi ariza qoldirdi.",
+      "type": "info",
+      "isRead": false,
+      "link": "/admin/crm",
+      "createdAt": "2026-11-21T05:35:46.921Z"
+    },
+    {
+      "id": "notif-1",
+      "targetRole": "all",
+      "title": "Yangi bahorgi guruhlar ochilishi",
+      "message": "Aprel oyidan boshlab yangi Full Stack va AI guruhlarimiz uchun qabul boshlandi!",
+      "type": "info",
+      "isRead": false,
+      "link": "/courses",
+      "createdAt": "2026-03-20T10:00:00.000Z"
+    },
+    {
+      "id": "notif-2",
+      "targetRole": "admin",
+      "title": "Yangi ariza kelib tushdi",
+      "message": "Temurbek Soliyev \"Python, Sun'iy Intellekt va Data Science\" kursiga ariza qoldirdi.",
+      "type": "success",
+      "isRead": false,
+      "link": "/admin/crm",
+      "createdAt": "2026-03-18T16:45:00.000Z"
+    },
+    {
+      "id": "notif-3",
+      "targetRole": "student",
+      "title": "Yangi uy vazifasi berildi",
+      "message": "Full Stack kursi uchun 2-modul bo'yicha amaliy topshiriq joylandi.",
+      "type": "warning",
+      "isRead": false,
+      "link": "/student/homework",
+      "createdAt": "2026-03-21T12:00:00.000Z"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-1",
+      "slug": "finpulse-ai",
+      "title": "FinPulse AI — Intellektual Moliya Tahlili",
+      "category": "ai",
+      "categoryLabel": "Sun'iy Intellekt / Fintex",
+      "studentName": "Bekzod Abdullayev",
+      "courseTitle": "Python, Sun'iy Intellekt va Data Science",
+      "coverImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&auto=format&fit=crop&q=80",
+      "demoUrl": "https://example.com/finpulse",
+      "githubUrl": "https://github.com/example/finpulse-ai",
+      "description": "Kichik va o'rta bizneslar uchun daromad va xarajatlarni bashorat qiluvchi, anomaliyalarni aniqlaydigan AI tahlil platformasi.",
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "PyTorch",
+        "Next.js",
+        "PostgreSQL",
+        "Tailwind CSS"
+      ],
+      "featured": true
+    },
+    {
+      "id": "proj-2",
+      "slug": "nexus-lms-pro",
+      "title": "Nexus LMS — Zamonaviy Masofaviy Ta'lim Platformasi",
+      "category": "web",
+      "categoryLabel": "Full Stack Veb Platforma",
+      "studentName": "Bobur Mirzayev & Zilola Karimova",
+      "courseTitle": "Full Stack JavaScript & Next.js Pro",
+      "coverImage": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&auto=format&fit=crop&q=80",
+      "demoUrl": "https://example.com/nexus-lms",
+      "githubUrl": "https://github.com/example/nexus-lms",
+      "description": "Jonli darslar, interaktiv topshiriqlar, QR-kodli sertifikatlar va o'quvchi analitikasini o'z ichiga olgan keng qamrovli tizim.",
+      "technologies": [
+        "Next.js 14",
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "Prisma",
+        "Tailwind CSS"
+      ],
+      "featured": true
+    },
+    {
+      "id": "proj-3",
+      "slug": "healthflow-mobile",
+      "title": "HealthFlow — Salomatlik va Odatlar Nazorati Ilovasi",
+      "category": "mobile",
+      "categoryLabel": "Mobil Ilova",
+      "studentName": "Javohir Toirov",
+      "courseTitle": "Flutter & Dart: Cross-Platform Mobile Pro",
+      "coverImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&auto=format&fit=crop&q=80",
+      "demoUrl": "https://example.com/healthflow",
+      "githubUrl": "https://github.com/example/healthflow-flutter",
+      "description": "Foydalanuvchilarning kundalik sport mashg'ulotlari, suv ichish me'yori va uyqu sifatini tahlil qiluvchi zamonaviy mobil ilova.",
+      "technologies": [
+        "Flutter",
+        "Dart",
+        "BLoC",
+        "Firebase",
+        "SQLite"
+      ],
+      "featured": true
+    },
+    {
+      "id": "proj-4",
+      "slug": "aurora-design-system",
+      "title": "Aurora — Universal Enterprise Design System",
+      "category": "design",
+      "categoryLabel": "Product Design & UI/UX",
+      "studentName": "Malika Rustamova",
+      "courseTitle": "Professional UI/UX & Product Design",
+      "coverImage": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&auto=format&fit=crop&q=80",
+      "demoUrl": "https://figma.com/example/aurora",
+      "description": "300 dan ortiq tayyor komponentlar, tokenlar, qorong'i/yorug' mavzu rejimlarini qamrab olgan keng qamrovli dizayn tizimi.",
+      "technologies": [
+        "Figma",
+        "Design Tokens",
+        "Auto Layout 5.0",
+        "Prototyping",
+        "WCAG 2.1"
+      ],
+      "featured": false
+    }
+  ],
+  "blog": [
+    {
+      "id": "blog-1",
+      "slug": "2026-yil-dasturchilar-uchun-ai-vositalari",
+      "title": "2026-yilda Har Bir Dasturchi Bilishi Shart Bo'lgan AI Vositalari",
+      "excerpt": "Sun'iy intellekt dasturchilarning o'rnini bosmaydi, lekin AI vositalaridan unumli foydalanuvchi dasturchilar boshqalardan 5 barobar samaraliroq ishlaydi.",
+      "content": "## Sun'iy Intellekt va Zamonaviy Dasturlash\n\nBugungi kunda dasturiy ta'minot yaratish jarayoni tubdan o'zgardi. Koding yozish shunchaki sintaksisni yodlashdan ko'ra, to'g'ri arxitektura va muammolarni hal qilish san'atiga aylandi.\n\n### Asosiy AI Vositalari:\n\n1. **AI Pair Programmers:** Kod yozish jarayonida real vaqtda xatoliklarni aniqlash va optimallashtirish.\n2. **Avtomatlashtirilgan Testlar:** Kod uchun avtomatik unit va integratsion testlarni generatsiya qilish.\n3. **Refactoring va Xavfsizlik:** Zaifliklarni oldindan ko'ra bilish va tizimni mustahkamlash.\n\n> \"Kelajakni kutmang, sun'iy intellektni bugunoq o'z amaliyotingizga joriy qiling.\"\n\nMetaITSchool da biz o'quvchilarimizga faqat nazariyani emas, balki real sanoatda qo'llanilayotgan eng yangi texnologiyalarni o'rgatamiz.",
+      "category": "Texnologiya",
+      "authorName": "Javohir Rahmatov",
+      "authorRole": "Senior Full Stack Engineer",
+      "authorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+      "tags": [
+        "AI",
+        "Dasturlash",
+        "Next.js",
+        "Kelajak"
+      ],
+      "publishedAt": "2026-03-15",
+      "readTime": "5 daqiqa",
+      "status": "published"
+    },
+    {
+      "id": "blog-2",
+      "slug": "frontend-trendlari-nextjs-va-server-components",
+      "title": "Frontend Trendlari: Nega Next.js 14 va Server Components Vebni Qayta Kashf Etdi?",
+      "excerpt": "Server va Client o'rtasidagi chegaralarning xiralashishi: yangi arxitektura nima sababdan veb tezligini rekord darajaga olib chiqdi?",
+      "content": "## Next.js App Router inqilobi\n\nSo'nggi yillarda React ekotizimida yuz bergan eng katta evolyutsiya — bu React Server Components (RSC) texnologiyasining kiritilishidir.\n\n### RSC ning afzalliklari:\n- **Zero-Bundle-Size:** Server komponentlari foydalanuvchi brauzeriga JavaScript hajmini oshirmasdan yetkaziladi.\n- **To'g'ridan-to'g'ri Ma'lumotlar Bazasi:** API endpointlarisiz server ma'lumotlarini bevosita komponent ichida olish imkoniyati.\n- **Streaming SSR:** Sahifa to'liq yuklanishini kutmasdan, qismlarni bo'lib-bo'lib yuborish.\n\nBizning Full Stack kursimizda ushbu ilg'or texnologiyalar eng chuqur darajada o'rgatiladi.",
+      "category": "Dasturlash",
+      "authorName": "Javohir Rahmatov",
+      "authorRole": "Senior Full Stack Engineer",
+      "authorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&auto=format&fit=crop&q=80",
+      "tags": [
+        "React",
+        "Next.js",
+        "Frontend",
+        "TypeScript"
+      ],
+      "publishedAt": "2026-03-10",
+      "readTime": "6 daqiqa",
+      "status": "published"
+    },
+    {
+      "id": "blog-3",
+      "slug": "ui-ux-dizaynda-micro-interactions-roli",
+      "title": "UI/UX Dizaynda Micro-Interactions Roli: Mahsulotni Sevimli Qiladigan Kichik Detallar",
+      "excerpt": "Foydalanuvchi ilovangiz bilan muloqot qilganda hissiy bog'liqlikni yaratuvchi nozik animatsiyalar va qayta aloqa sirlari.",
+      "content": "## Kichik detallar — Katta natijalar\n\nMicro-interaction bu bitta aniq vazifani bajarishda foydalanuvchiga vizual yoki haptik javob beruvchi dizayn elementi.\n\nMasalan:\n- Tugmachani bosgandagi nozik tebranish yoki rang o'zgarishi\n- Sahifa yuklanayotganda nozik skeleton animatsiyasi\n- Parol kiritilgandagi xavfsizlik indikatori\n\nMadina Qodirovaning UI/UX kursida o'quvchilar nafaqat statik ekranlar, balki jonli va jozibador interfeyslarni loyihalashni o'rganadilar.",
+      "category": "Dizayn",
+      "authorName": "Madina Qodirova",
+      "authorRole": "Lead Product Designer",
+      "authorAvatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+      "coverImage": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&auto=format&fit=crop&q=80",
+      "tags": [
+        "UI/UX",
+        "Figma",
+        "Design Systems",
+        "Micro-interactions"
+      ],
+      "publishedAt": "2026-03-05",
+      "readTime": "4 daqiqa",
+      "status": "published"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "test-1",
+      "studentName": "Farrux Tojiyev",
+      "role": "Frontend Dasturchi",
+      "company": "Uzum Technologies",
+      "courseTitle": "Full Stack JavaScript & Next.js Pro",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "content": "MetaITSchool da o'qish hayotimdagi eng to'g'ri qaror bo'ldi. Javohir ustozning amaliy yondashuvi va real loyihalar ustida ishlash tajribasi sababli kursni tugatiboq Uzum kompaniyasiga ishga qabul qilindim.",
+      "featured": true
+    },
+    {
+      "id": "test-2",
+      "studentName": "Dildora Alimova",
+      "role": "UI/UX Dizayner",
+      "company": "Click Fintech",
+      "courseTitle": "Professional UI/UX & Product Design",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "content": "Madina opaning darslari orqali Figma da shunchaki rasm chizishdan haqiqiy Product Design darajasiga ko'tarildim. Xalqaro darajadagi portfolio yaratishga yordam berishdi.",
+      "featured": true
+    },
+    {
+      "id": "test-3",
+      "studentName": "Akmaljon Shokirov",
+      "role": "Data Scientist",
+      "company": "EPAM Systems",
+      "courseTitle": "Python, Sun'iy Intellekt va Data Science",
+      "avatar": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=150&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "content": "Kursdagi materiallar darajasi juda yuqori. Ayniqsa PyTorch va LLM arxitekturalari bo'yicha darslar xalqaro dasturlardan aslo qolishmaydi. Tavsiya qilaman!",
+      "featured": true
+    },
+    {
+      "studentName": "ibrohimjon",
+      "role": "Frontend Dasturchi",
+      "company": "Uzum Technologies",
+      "courseTitle": "Full Stack JavaScript & Next.js Pro",
+      "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=150&auto=format&fit=crop&q=80",
+      "rating": 5,
+      "content": "salom",
+      "id": "test-1795241127692"
+    }
+  ],
+  "cms": {
+    "hero": {
+      "badge": "🚀 MetaITSchool — Keyingi Avlod IT Akademiyasi",
+      "headline": "Kelajakni kutma.",
+      "highlightedText": "Uni yarat.",
+      "supportingText": "MetaITSchool bilan IT olamiga qadam qo'y. Zamonaviy texnologiyalarni o'rgan, xalqaro darajadagi portfolio yarat va nufuzli kompaniyalarda o'z kelajagingni qur.",
+      "ctaPrimary": "Ta'limni boshlash",
+      "ctaSecondary": "Kurslarni ko'rish"
+    },
+    "announcement": {
+      "enabled": true,
+      "text": "⚡️ 2026-yil bahorgi qabul ochiq! Birinchi 20 nafar o'quvchiga 25% gacha chegirma taqdim etiladi.",
+      "linkText": "Ro'yxatdan o'tish →",
+      "linkUrl": "/apply"
+    },
+    "about": {
+      "story": "MetaITSchool — 2024-yilda yetakchi dasturchilar, IT arxitektorlari va ta'lim sohasi mutaxassislari tomonidan tashkil etilgan innovatsion IT akademiya.",
+      "mission": "O'zbekiston va Markaziy Osiyo yoshlarini global miqyosda raqobatbardosh, yuqori malakali IT muhandislari va rahbarlari darajasiga ko'tarish.",
+      "vision": "Kelgusi 5 yil ichida 10,000 dan ortiq yoshlarni zamonaviy kasblarga o'rgatib, xalqaro IT eksportini yangi bosqichga olib chiqish.",
+      "stats": {
+        "graduates": 1450,
+        "hiredRate": 94,
+        "coursesCount": 8,
+        "partnersCount": 45
+      }
+    },
+    "contact": {
+      "phone": "+998 (71) 200-50-50",
+      "email": "info@metaitschool.uz",
+      "address": "Toshkent shahri, Amir Temur shox ko'chasi, 108-uy. IT Park binosi, 3-qavat",
+      "telegram": "https://t.me/metaitschool_official",
+      "instagram": "https://instagram.com/metaitschool",
+      "youtube": "https://youtube.com/@metaitschool",
+      "workingHours": "Dushanba - Shanba: 09:00 - 21:00"
+    }
+  },
+  "activityLogs": [
+    {
+      "id": "log-1795241010531",
+      "username": "fazliddin",
+      "action": "FINANCE_PAYMENT",
+      "entity": "Finance",
+      "details": "Yangi to'lov qabul qilindi: 1,800,000 so'm (Otabek Jo'rayev)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-21T06:03:30.531Z"
+    },
+    {
+      "id": "log-1795240875298",
+      "username": "fazliddin",
+      "action": "CRM_STATUS_CHANGE",
+      "entity": "CRM",
+      "details": "fazliddin arizasi holati \"NEW\" ga o'zgartirildi",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-21T06:01:15.298Z"
+    },
+    {
+      "id": "log-1795240872614",
+      "username": "fazliddin",
+      "action": "CRM_STATUS_CHANGE",
+      "entity": "CRM",
+      "details": "fazliddin arizasi holati \"CONTACTED\" ga o'zgartirildi",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-21T06:01:12.614Z"
+    },
+    {
+      "id": "log-1795240870877",
+      "username": "fazliddin",
+      "action": "CRM_STATUS_CHANGE",
+      "entity": "CRM",
+      "details": "fazliddin arizasi holati \"NEW\" ga o'zgartirildi",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-21T06:01:10.877Z"
+    },
+    {
+      "id": "log-1795240869687",
+      "username": "fazliddin",
+      "action": "CRM_STATUS_CHANGE",
+      "entity": "CRM",
+      "details": "fazliddin arizasi holati \"CONTACTED\" ga o'zgartirildi",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-11-21T06:01:09.687Z"
+    },
+    {
+      "id": "log-1795240795265",
+      "username": "fazliddin",
+      "action": "ADMIN_LOGIN",
+      "entity": "Auth",
+      "details": "Administrator tizimga kirdi (IP: ::1)",
+      "ip": "::1",
+      "timestamp": "2026-11-21T05:59:55.265Z"
+    },
+    {
+      "id": "log-1795238996761",
+      "username": "fazliddin",
+      "action": "ADMIN_LOGIN",
+      "entity": "Auth",
+      "details": "Administrator tizimga kirdi (IP: ::1)",
+      "ip": "::1",
+      "timestamp": "2026-11-21T05:29:56.761Z"
+    },
+    {
+      "id": "log-1",
+      "username": "fazliddin",
+      "action": "ADMIN_LOGIN",
+      "entity": "Authentication",
+      "details": "Muvaffaqiyatli tizimga kirdi",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-03-21T08:00:00.000Z"
+    },
+    {
+      "id": "log-2",
+      "username": "yaxyobek",
+      "action": "APPLICATION_STATUS_UPDATE",
+      "entity": "CRM",
+      "details": "Ravshan Yusupov arizasi \"APPROVED\" holatiga o'tkazildi",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-03-21T09:15:00.000Z"
+    },
+    {
+      "id": "log-3",
+      "username": "jasurbek",
+      "action": "COURSE_UPDATE",
+      "entity": "Courses",
+      "details": "Full Stack JavaScript kursi dars rejasi yangilandi",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-03-21T11:30:00.000Z"
+    }
+  ]
+}
